@@ -57,6 +57,7 @@ def test_divide(a, b, expected):
     result = utils.divide(a, b)
     assert result == expected
 
+
 def test_dec_to_bin_10():
     assert utils.dec_to_bin(10) == "1010"
 
