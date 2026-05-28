@@ -56,3 +56,18 @@ def test_multiply(a, b, expected):
 def test_divide(a, b, expected):
     result = utils.divide(a, b)
     assert result == expected
+
+def test_dec_to_bin_10():
+    assert utils.dec_to_bin(10) == "1010"
+
+
+def test_dec_to_bin_100():
+    assert utils.dec_to_bin(100) == "1100100"
+
+
+def test_dec_to_bin_0():
+    assert utils.dec_to_bin(0) == "0"
+
+
+def test_dec_to_bin_15():
+    assert utils.dec_to_bin(15) == "1111"
